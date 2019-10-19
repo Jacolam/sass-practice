@@ -2,17 +2,25 @@
 $textColor: black;
 $contrastColor: white;
 
-header {
-  background: lightpink;
+//mixin
+@mixin flexCenter{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+header {
+  @include flexCenter();
+  background: white;
   color: $textColor;
+  height: 100vh;
   button{
     background: $contrastColor;
   }
 }
 
 body{
+  background: lightpink;
   p{
     background: lightblue;
     display: flex;

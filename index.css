@@ -1,14 +1,18 @@
 header {
-  background: lightpink;
   display: flex;
   justify-content: center;
-  color: black; }
+  align-items: center;
+  background: white;
+  color: black;
+  height: 100vh; }
   header button {
     background: white; }
 
-body p {
-  background: lightblue;
-  display: flex;
-  justify-content: center; }
+body {
+  background: lightpink; }
+  body p {
+    background: lightblue;
+    display: flex;
+    justify-content: center; }
 
 /*# sourceMappingURL=index.css.map */
