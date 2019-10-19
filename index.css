@@ -1,10 +1,10 @@
 header {
-  background: lightblue;
+  background: lightpink;
   display: flex;
   justify-content: center;
-  color: red; }
+  color: black; }
   header button {
-    background: red; }
+    background: white; }
 
 body p {
   background: lightblue;
