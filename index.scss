@@ -1,0 +1,19 @@
+$textColor: red;
+
+header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  color: $textColor;
+  button{
+    background: $textColor;
+  }
+}
+
+body{
+  p{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,3 +1,14 @@
+header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  color: red; }
+  header button {
+    background: red; }
 
+body p {
+  background: lightblue;
+  display: flex;
+  justify-content: center; }
 
 /*# sourceMappingURL=index.css.map */
