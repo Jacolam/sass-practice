@@ -1,7 +1,7 @@
 //varibles in scss
-$textColor: black;
-$contrastColor: white;
-
+// $textColor: black;
+// $contrastColor: white;
+@import 'variables';
 //mixin
 @mixin flexCenter{
   display: flex;
