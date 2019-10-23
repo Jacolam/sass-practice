@@ -1,13 +1,5 @@
-//varibles in scss
-// $textColor: black;
-// $contrastColor: white;
 @import 'variables';
-//mixin
-@mixin flexCenter{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+@import 'mixins';
 
 header {
   @include flexCenter();
