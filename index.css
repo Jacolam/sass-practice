@@ -1,7 +1,13 @@
 .nav {
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column; }
+  .nav .btn {
+    color: blue; }
+  .nav button {
+    color: red;
+    font-family: Times; }
 
 header {
   display: flex;

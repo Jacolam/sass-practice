@@ -3,3 +3,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin flexdir($jc, $ai , $dir){
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $dir;
+}

@@ -1,6 +1,12 @@
 @import 'mixins';
 
 .nav {
- @include flexCenter();
-
+ @include flexdir(flex-end, center, column);
+ .btn{
+   color: blue;
+ }
+ button {
+   color:red;
+   font-family: Times;
+ }
 }
