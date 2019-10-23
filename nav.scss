@@ -1,7 +1,7 @@
 @import 'mixins';
 
 .nav {
- @include flexdir(flex-end, center, column);
+ @include flexdir(flex-end, center, row);
  .btn{
    color: blue;
  }
