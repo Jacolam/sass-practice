@@ -17,10 +17,13 @@ header {
   color: black;
   height: 100vh; }
   header button {
-    background: white; }
+    background: white;
+    color: blue; }
 
 body {
   background: lightpink; }
+  body button {
+    color: blue; }
   body p {
     background: lightblue;
     display: flex;
